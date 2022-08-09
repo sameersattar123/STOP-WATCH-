@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.main{
+    margin-top: 50px;
+}
+
+.numbers{
+    display: inline-block;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+.button{
+    width: 100px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .numbers{
+        border-radius: 1px;
+        border: 1px solid;
+        padding: 0%;
+    }
+    .button{
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
